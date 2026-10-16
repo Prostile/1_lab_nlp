@@ -50,7 +50,6 @@ sentences = sent_tokenize(text, language="russian")
 
 
 for sentence in sentences:
-    print("sentence: ",sentence)
     tokens = word_tokenize(sentence, language="russian")
 
     for i in range(len(tokens) - 1):
